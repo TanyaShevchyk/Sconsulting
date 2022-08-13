@@ -1,0 +1,18 @@
+.list-client {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .client-item {
+        max-width: 310px;
+    }
+
+    .client-item:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .first {
+        margin-right: 50px;
+    }
+}
