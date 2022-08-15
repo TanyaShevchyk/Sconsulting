@@ -1,0 +1,26 @@
+.features {
+
+    padding-bottom: 100px;
+
+    .slogans {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .paragraf {
+            max-width: 509px;
+        }
+    }
+    
+    .services-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: unset;
+    
+    .services-list__item {
+        margin-right: 25px;
+    }
+    }
+
+}
