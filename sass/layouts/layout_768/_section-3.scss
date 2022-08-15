@@ -1,5 +1,11 @@
 .about {
 
+    .container {
+        max-width: 930px;
+        padding: 0 43px;
+        margin: 0 auto;
+    }
+
 .title {
     display: flex;
     flex-direction: column;

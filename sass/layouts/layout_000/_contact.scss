@@ -1,0 +1,203 @@
+.contacts {
+    background: linear-gradient(to bottom, #252B42 70%, #FAFAFA 30%);
+
+    .container {
+        max-width: 1050px;
+        margin: 0 auto;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 0 42px;
+
+    .info {
+
+        
+        padding: 50px 0;
+        margin-bottom: 30px;
+
+        h3 {
+            font-family: $fontMontserrat;
+            color: #fff;
+            font-size: 40px;
+            line-height: 57px;
+            letter-spacing: 0.2px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        p {
+            font-family: $fontMontserrat;
+            color: #fff;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+    }
+
+    .map {
+        
+        padding: 50px 0;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    .photo {
+        
+        height: 259px;
+        background-image: url(../img/form-photo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.form {
+    background-color: #fff;
+    padding: 40px 50px;
+
+    h4 {
+        font-family: $fontMontserrat;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        margin-bottom: 40px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            color: #252B42;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.2px;
+            font-family: $fontMontserrat;
+            margin-bottom: 10px;
+            
+        }
+
+        input {
+            margin-bottom: 12px;
+            padding: 11px 21px;
+            border: 1px solid #BDBDBD;
+            border-radius: 5px;
+            
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        input[type="text"]::placeholder { 
+            font-family: $fontMontserrat;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 0.2px;
+            color: #737373; 
+        }
+
+        .select-wrapper1 {
+            position: relative;
+            
+        }
+
+        .select-wrapper1::after {
+            content: url(/img/check-mark.svg);
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            top: 11px;
+            
+        }
+
+        .select-wrapper2 {
+            position: relative;
+            
+        }
+
+        .select-wrapper2::after {
+            content: url(/img/check-mark.svg);
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            top: 11px;
+            
+        }
+
+        select {
+            padding-top: 11px;
+            padding-left: 18px;
+            padding-bottom: 11px;
+            padding-right: 34px;
+            border: 1px solid #BDBDBD;
+            border-radius: 5px;
+            appearance: none;
+            position: relative;
+            display: block;
+            cursor: pointer;
+            font-family: $fontMontserrat;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 0.2px;
+            color: #737373; 
+            width: 100%;
+            
+            &:focus {
+                outline: none;
+            }
+            
+        }
+
+        .department {
+            margin-bottom: 12px;
+        }
+
+        .time {
+            margin-bottom: 40px;
+        }
+
+        button {
+            padding: 15px;
+            background-color: #FF7B47;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-family: $fontMontserrat;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.2px;
+            text-align: center;
+
+        }
+
+        
+    }
+}

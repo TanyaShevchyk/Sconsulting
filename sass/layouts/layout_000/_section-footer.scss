@@ -1,6 +1,12 @@
 .footer {
     padding-top: 80px;
 
+    .container {
+        max-width: 768px;
+        padding: 0 43px;
+        margin: 0 auto;
+    }
+
     .main-list {
         display: flex;
         flex-direction: column;
