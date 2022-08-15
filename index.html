@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,74 +9,128 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <main>
-        <section class="features">
+        <header class="header">
             <div class="container">
-                <div class="slogans">
-                    <h2>
-                        Every Client Matters
-                    </h2>
-                    <p class="paragraf">Problems trying to resolve
-                        the conflict between the
-                        two major realms of Classical
-                        physics: Newtonian mechanics
-                    </p>
+                <div class="header__left">
+                    <a href="#" class="header-left__logo">
+                        <span class="logo">Sconsulting</span>
+                    </a>
+                    <nav class="header__nav">
+                        <ul class="menu">
+                            <li clas="menu__item"><a href="#hero" class="header__link">Home</a></li>
+                            <li clas="menu__item"><a href="#product" class="header__link">Product</a></li>
+                            <li clas="menu__item"><a href="#pricing" class="header__link">Pricing</a></li>
+                            <li clas="menu__item"><a href="#contacts" class="header__link">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <ul class="services-list">
-                    <li class="services-list__item">
-                        <div>
-                            <svg class="icon">
-                                <use xlink:href="img/sprite.svg#image-1"></use>
+                <div class="header__right">
+                    <a href="#" class="header__search">
+                        <svg class="icon">
+                            <use xlink:href="./img/sprite.svg#search"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="header__cart">
+                        <svg class="icon">
+                            <use xlink:href="./img/sprite.svg#shopping-cart"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="header__burger">
+                        <div class="burger-icon">
+                            <svg class="burger-grey">
+                                <use xlink:href="./img/sprite.svg#burger-grey" width="24px"></use>
+                            </svg>
+                            <svg class="burger-black">
+                                <use xlink:href="./img/sprite.svg#burger-black" width="24px"></use>
                             </svg>
                         </div>
-                        <h3>Business & Finance</h3>
-                    </li>
-                    <li class="services-list__item">
-                        <div>
-                            <svg class="icon">
-                                <use xlink:href="img/sprite.svg#image-2"></use>
-                            </svg>
-                        </div>
-                        <h3>Consumer Products</h3>
-                    </li>
-                    <li class="services-list__item">
-                        <div>
-                            <svg class="icon">
-                                <use xlink:href="img/sprite.svg#image-3"></use>
-                            </svg>
-                        </div>
-                        <h3>Environmental</h3>
-                    </li>
-                    <li class="services-list__item">
-                        <div>
-                            <svg class="icon">
-                                <use xlink:href="img/sprite.svg#image-4"></use>
-                            </svg>
-                        </div>
-                        <h3>Business & Finance</h3>
-                    </li>
-                    <li class="services-list__item">
-                        <div>
-                            <svg class="icon">
-                                <use xlink:href="img/sprite.svg#image-5"></use>
-                            </svg>
-                        </div>
-                        <h3>Consumer Products</h3>
-                    </li>
-                    <li class="services-list__item end-list">
-                        <div>
-                            <svg class="icon">
-                                <use xlink:href="img/sprite.svg#image-6"></use>
-                            </svg>
-                        </div>
-                        <h3>Financial Services</h3>
-                    </li>
-                </ul>
+                    </a>
+                </div>
             </div>
-        </section>
-        <section class="about">
-            <div class="container">
+        </header>
+        <main>
+            <section class="hero" id="hero">
+                <div class="container">
+                    <h2>Business Advisory Provider</h2>
+                    <p>We know how large
+                        objects wi ll act, but things
+                        on a small scale just do
+                        not act that way.</p>
+                    <div class="button">
+                        <a href="#" class="hero__link">Get Quote Now</a>
+                        <a href="#" class="hero__more">Learn More</a>
+                    </div>
+                </div>
+            </section>
+            <section class="features">
+                <div class="container">
+                    <div class="slogans">
+                        <h2>
+                            Every Client Matters
+                        </h2>
+                        <p class="paragraf">Problems trying to resolve
+                            the conflict between the
+                            two major realms of Classical
+                            physics: Newtonian mechanics
+                        </p>
+                    </div>
+                    <ul class="services-list">
+                        <li class="services-list__item">
+                            <div>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#image-1"></use>
+                                </svg>
+                            </div>
+                            <h3>Business & Finance</h3>
+                        </li>
+                        <li class="services-list__item">
+                            <div>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#image-2"></use>
+                                </svg>
+                            </div>
+                            <h3>Consumer Products</h3>
+                        </li>
+                        <li class="services-list__item">
+                            <div>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#image-3"></use>
+                                </svg>
+                            </div>
+                            <h3>Environmental</h3>
+                        </li>
+                        <li class="services-list__item">
+                            <div>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#image-4"></use>
+                                </svg>
+                            </div>
+                            <h3>Business & Finance</h3>
+                        </li>
+                        <li class="services-list__item">
+                            <div>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#image-5"></use>
+                                </svg>
+                            </div>
+                            <h3>Consumer Products</h3>
+                        </li>
+                        <li class="services-list__item end-list">
+                            <div>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#image-6"></use>
+                                </svg>
+                            </div>
+                            <h3>Financial Services</h3>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
                     <div class="title">
                         <h2>Who We Are</h2>
                         <p>
@@ -87,15 +142,15 @@
                     </div>
                     <div class="about-main">
                         <div class="video">
-                                <picture>
-                                    <source media="(min-width:768px)" srcset="./img/cover_768.jpg">
-                                    <img src="./img/cover.jpg" alt="People">
-                                </picture>
+                            <picture>
+                                <source media="(min-width:768px)" srcset="./img/cover_768.jpg">
+                                <img src="./img/cover.jpg" alt="People">
+                            </picture>
 
                             <button>
-                                    <svg class="icon">
-                                        <use xlink:href="img/sprite.svg#icon-play"></use>
-                                    </svg>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#icon-play"></use>
+                                </svg>
                             </button>
                         </div>
                         <div class="slogan">
@@ -130,328 +185,331 @@
                             </ul>
                         </div>
                     </div>
-            </div>
-        </section>
-        <section class="review">
-            <div class="container">
-                <div class="title-review">
-                    <h3>What Clients Say</h3>
-                    <p>Problems trying to resolve
-                    the conflict between the two major
-                    realms of Classical physics:
-                    Newtonian mechanics</p>
                 </div>
-                <ul class="list-client">
-                    <li class="client-item first">
-                        <img src="img/client1.png" alt="Client 1">
-                        <h4>Regina Miles</h4>
-                        <span>Designer</span>
-                        <ul>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-white"></use>
-                                </svg>
-                            </li>
-                        </ul>
-                        <p>
-                            This proved to be
-                            impossible using the
-                            traditional concepts
-                            of space and time. Einstein
-                            developed a new view
-                            of time first and then
-                            space. This proved to be
-                            impossible using the
-                            traditional concepts
-                            of space and time. Einstein
-                            developed a new view
-                            of time first and then space.
-                        </p>
-                    </li>
-                    <li class="client-item second">
-                        <img src="img/client2.png" alt="Client 2">
-                        <h4>Regina Miles</h4>
-                        <span>Designer</span>
-                        <ul>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-white"></use>
-                                </svg>
-                            </li>
-                        </ul>
-                        <p>
-                            This proved to be
-                            impossible using the
-                            traditional concepts
-                            of space and time. Einstein
-                            developed a new view
-                            of time first and then
-                            space. This proved to be
-                            impossible using the
-                            traditional concepts
-                            of space and time. Einstein
-                            developed a new view
-                            of time first and then space.
-                        </p>
-                    </li>
-                    <li class="client-item third">
-                        <img src="img/client3.png" alt="Client 3">
-                        <h4>Regina Miles</h4>
-                        <span>Designer</span>
-                        <ul>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-gold"></use>
-                                </svg>
-                            </li>
-                            <li>
-                                <svg class="icon">
-                                    <use xlink:href="img/sprite.svg#star-white"></use>
-                                </svg>
-                            </li>
-                        </ul>
-                        <p>
-                            This proved to be
-                            impossible using the
-                            traditional concepts
-                            of space and time. Einstein
-                            developed a new view
-                            of time first and then
-                            space. This proved to be
-                            impossible using the
-                            traditional concepts
-                            of space and time. Einstein
-                            developed a new view
-                            of time first and then space.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="team">
-            <div class="container">
-                <div class="title-team">
-                    <h3>Meet Our Team</h3>
-                    <p>Problems trying to resolve
-                        the conflict between the two major
-                        realms of Classical physics:
-                        Newtonian mechanics
-                    </p>
+            </section>
+            <section class="review">
+                <div class="container">
+                    <div class="title-review">
+                        <h3>What Clients Say</h3>
+                        <p>Problems trying to resolve
+                            the conflict between the two major
+                            realms of Classical physics:
+                            Newtonian mechanics</p>
+                    </div>
+                    <ul class="list-client">
+                        <li class="client-item first">
+                            <img src="img/client1.png" alt="Client 1">
+                            <h4>Regina Miles</h4>
+                            <span>Designer</span>
+                            <ul>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-white"></use>
+                                    </svg>
+                                </li>
+                            </ul>
+                            <p>
+                                This proved to be
+                                impossible using the
+                                traditional concepts
+                                of space and time. Einstein
+                                developed a new view
+                                of time first and then
+                                space. This proved to be
+                                impossible using the
+                                traditional concepts
+                                of space and time. Einstein
+                                developed a new view
+                                of time first and then space.
+                            </p>
+                        </li>
+                        <li class="client-item second">
+                            <img src="img/client2.png" alt="Client 2">
+                            <h4>Regina Miles</h4>
+                            <span>Designer</span>
+                            <ul>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-white"></use>
+                                    </svg>
+                                </li>
+                            </ul>
+                            <p>
+                                This proved to be
+                                impossible using the
+                                traditional concepts
+                                of space and time. Einstein
+                                developed a new view
+                                of time first and then
+                                space. This proved to be
+                                impossible using the
+                                traditional concepts
+                                of space and time. Einstein
+                                developed a new view
+                                of time first and then space.
+                            </p>
+                        </li>
+                        <li class="client-item third">
+                            <img src="img/client3.png" alt="Client 3">
+                            <h4>Regina Miles</h4>
+                            <span>Designer</span>
+                            <ul>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-gold"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg class="icon">
+                                        <use xlink:href="img/sprite.svg#star-white"></use>
+                                    </svg>
+                                </li>
+                            </ul>
+                            <p>
+                                This proved to be
+                                impossible using the
+                                traditional concepts
+                                of space and time. Einstein
+                                developed a new view
+                                of time first and then
+                                space. This proved to be
+                                impossible using the
+                                traditional concepts
+                                of space and time. Einstein
+                                developed a new view
+                                of time first and then space.
+                            </p>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="list-team">
-                    <li class="list-team__item">
-                        <img src="img/team1.png" alt="Consultant">
-                        <span>Consultant</span>
-                        <h3>Rodney Stratton</h3>
-                        <p>the quick fox jumps
-                            over the lazy dog
-                        </p>
-                    </li>
-                    <li class="list-team__item">
-                        <img src="img/team2.png" alt="CO Founder">
-                        <span>CO Founder</span>
-                        <h3>Avie Beaton</h3>
-                        <p>the quick fox jumps
-                            over the lazy dog
-                        </p>
-                    </li>
-                    <li class="list-team__item">
-                        <img src="img/team3.png" alt="CEO">
-                        <span>CEO</span>
-                        <h3>Ashley Fletcher</h3>
-                        <p>the quick fox jumps
-                            over the lazy dog
-                        </p>
-                    </li>
-                    <li class="list-team__item">
-                        <img src="img/team4.png" alt="Consultant">
-                        <span>Consultant</span>
-                        <h3>Rodney Stratton</h3>
-                        <p>the quick fox jumps
-                            over the lazy dog
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="contacts">
-            <div class="container">
-                <div class="top">
-                    <div class="info">
-                        <h3>
-                            We Have
-                            Branches All
-                            Over The World
-                        </h3>
-                        <p>
-                            The gradual accumulation of information
-                            about atomic and small-scale behaviour
-                            during the first quarter of the 20th
-                            century, which gave some indications
-                            about how small things
-                            do behave, produced an increasing
-                            confusion which was Heisenberg,
-                            and Born.
+            </section>
+            <section class="team">
+                <div class="container">
+                    <div class="title-team">
+                        <h3>Meet Our Team</h3>
+                        <p>Problems trying to resolve
+                            the conflict between the two major
+                            realms of Classical physics:
+                            Newtonian mechanics
                         </p>
                     </div>
-                    <div class="map">
-                        <img src="img/map.png" alt="map">
+                    <ul class="list-team">
+                        <li class="list-team__item">
+                            <img src="img/team1.png" alt="Consultant">
+                            <span>Consultant</span>
+                            <h3>Rodney Stratton</h3>
+                            <p>the quick fox jumps
+                                over the lazy dog
+                            </p>
+                        </li>
+                        <li class="list-team__item">
+                            <img src="img/team2.png" alt="CO Founder">
+                            <span>CO Founder</span>
+                            <h3>Avie Beaton</h3>
+                            <p>the quick fox jumps
+                                over the lazy dog
+                            </p>
+                        </li>
+                        <li class="list-team__item">
+                            <img src="img/team3.png" alt="CEO">
+                            <span>CEO</span>
+                            <h3>Ashley Fletcher</h3>
+                            <p>the quick fox jumps
+                                over the lazy dog
+                            </p>
+                        </li>
+                        <li class="list-team__item">
+                            <img src="img/team4.png" alt="Consultant">
+                            <span>Consultant</span>
+                            <h3>Rodney Stratton</h3>
+                            <p>the quick fox jumps
+                                over the lazy dog
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="container">
+                    <div class="top">
+                        <div class="info">
+                            <h3>
+                                We Have
+                                Branches All
+                                Over The World
+                            </h3>
+                            <p>
+                                The gradual accumulation of information
+                                about atomic and small-scale behaviour
+                                during the first quarter of the 20th
+                                century, which gave some indications
+                                about how small things
+                                do behave, produced an increasing
+                                confusion which was Heisenberg,
+                                and Born.
+                            </p>
+                        </div>
+                        <div class="map">
+                            <img src="img/map.png" alt="map">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="photo">
+
+                        </div>
+                        <div class="form">
+                            <h4>Get A Free Quote Here</h4>
+                            <form action="#">
+                                <label for="name">Name*</label>
+                                <input type="text" id="name" name="name" placeholder="Full Name">
+                                <label for="email">Email*</label>
+                                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                                <label for="department">Department *</label>
+                                <div class="select-wrapper1">
+                                    <select class="department" name="department" id="department"
+                                        placeholder="Please Select">
+                                        <option value="" selected disabled>Please Select</option>
+                                        <option value="Kyiv">Kyiv</option>
+                                        <option value="Lviv">Lviv</option>
+                                        <option value="Odesa">Odesa</option>
+                                    </select>
+                                </div>
+                                <label for="time">Time *</label>
+                                <div class="select-wrapper2">
+                                    <select class="time" name="time" id="time">
+                                        <option value="4:00">4:00 Available</option>
+                                        <option value="5:00">5:00</option>
+                                        <option value="6:00">6:00</option>
+                                    </select>
+                                </div>
+                                <button type="submit">
+                                    Book Appointment
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                <div class="bottom">
-                    <div class="photo">
-    
-                    </div>
-                    <div class="form">
-                        <h4>Get A Free Quote Here</h4>
-                        <form action="#">
-                            <label for="name">Name*</label>
-                            <input type="text" id="name" name="name" placeholder="Full Name">
-                            <label for="email">Email*</label>
-                            <input type="text" id="email" name="email" placeholder="example@gmail.com">
-                            <label for="department">Department *</label>
-                            <div class="select-wrapper1">
-                                <select class="department" name="department" id="department" placeholder="Please Select">
-                                    <option value="" selected disabled >Please Select</option>
-                                    <option value="Kyiv">Kyiv</option>
-                                    <option value="Lviv">Lviv</option>
-                                    <option value="Odesa">Odesa</option>
-                                </select>
-                            </div>
-                            <label for="time">Time *</label>
-                            <div class="select-wrapper2">
-                                <select class="time" name="time" id="time">
-                                    <option value="4:00">4:00 Available</option>
-                                    <option value="5:00">5:00</option>
-                                    <option value="6:00">6:00</option>
-                                </select>
-                            </div>
-                            <button type="submit">
-                                Book Appointment
-                            </button>
-                        </form>
+            </section>
+            <section class="footer">
+                <div class="container">
+                    <ul class="main-list">
+                        <li class="main-list__item">
+                            <h3>Get In Touch</h3>
+                            <p>the quick fox jumps over the
+                                lazy dog
+                            </p>
+                            <ul class="icons-list">
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#facebook"></use>
+                                </svg>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#instagram"></use>
+                                </svg>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#twitter"></use>
+                                </svg>
+                                <svg class="icon">
+                                    <use xlink:href="img/sprite.svg#youtube"></use>
+                                </svg>
+                            </ul>
+                        </li>
+                        <li class="main-list__item">
+                            <h3>Company info</h3>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Carrier</a></li>
+                                <li><a href="#">We are hiring</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-list__item">
+                            <h3>Features</h3>
+                            <ul>
+                                <li><a href="#">Business Marketing</a></li>
+                                <li><a href="#">User Analytic</a></li>
+                                <li><a href="#">Live Chat</a></li>
+                                <li><a href="#">Unlimited Support</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-list__item">
+                            <h3>Resources</h3>
+                            <ul>
+                                <li><a href="#">IOS & Android</a></li>
+                                <li><a href="#">Watch a Demo</a></li>
+                                <li><a href="#">Customers</a></li>
+                                <li><a href="#">API</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="bottom">
+                <div class="container">
+                    <div class="text">
+                        <span>
+                            Made With Love By
+                            Figmaland All Right Reserved
+                        </span>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="footer">
-            <div class="container">
-                <ul class="main-list">
-                    <li class="main-list__item">
-                        <h3>Get In Touch</h3>
-                        <p>the quick fox jumps over the
-                            lazy dog
-                        </p>
-                        <ul class="icons-list">
-                            <svg class="icon">
-                                <use xlink:href="img/sprite.svg#facebook"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use xlink:href="img/sprite.svg#instagram"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use xlink:href="img/sprite.svg#twitter"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use xlink:href="img/sprite.svg#youtube"></use>
-                            </svg>
-                        </ul>
-                    </li>
-                    <li class="main-list__item">
-                        <h3>Company info</h3>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Carrier</a></li>
-                            <li><a href="#">We are hiring</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                    </li>
-                    <li class="main-list__item">
-                        <h3>Features</h3>
-                        <ul>
-                            <li><a href="#">Business Marketing</a></li>
-                            <li><a href="#">User Analytic</a></li>
-                            <li><a href="#">Live Chat</a></li>
-                            <li><a href="#">Unlimited Support</a></li>
-                        </ul>
-                    </li>
-                    <li class="main-list__item">
-                        <h3>Resources</h3>
-                        <ul>
-                            <li><a href="#">IOS & Android</a></li>
-                            <li><a href="#">Watch a Demo</a></li>
-                            <li><a href="#">Customers</a></li>
-                            <li><a href="#">API</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="bottom">
-            <div class="container">
-                <div class="text">
-                    <span>
-                        Made With Love By
-                        Figmaland All Right Reserved
-                    </span>
-                </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
+        <script src="./js/script.js"></script>
 </body>
+
 </html>

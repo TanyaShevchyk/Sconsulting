@@ -1,0 +1,118 @@
+.header {
+    align-items: center;
+
+    width: 100%;
+    background-color: #F7F7F7;
+    position: fixed;
+
+    &__right {
+        display: flex;
+    }
+
+    .container {
+        max-width: 1050px;
+        margin: 0 auto;
+        padding: 0 39px;
+        display: flex;
+        justify-content: space-between;
+        min-height: 100px;
+        align-items: center;
+        padding-bottom: 37px;
+    }
+
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .burger-icon svg {
+        position: absolute;
+        width: 24px;
+        height: 34px;
+        right: 39px;
+        z-index: 10;
+    }
+
+    &__link {
+        color: $greyColor;
+    }
+
+    &__nav {
+        .menu {
+            display: none;
+        }
+
+    }
+
+    &--menu-active {
+        .header__nav {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 8;
+            background-color: $whiteColor;
+        }
+
+        .menu {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding-top: 176px;
+            min-height: 414px;
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+        }
+
+        .menu li {
+            margin-bottom: 30px;
+        }
+
+        .menu li:last-child {
+            margin-bottom: 98px;
+        }
+
+        .header__cart,
+        .header__search {
+            display: flex;
+            position: absolute;
+            z-index: 10;
+        }
+
+        .header__cart {
+            right: 95px;
+            top: 36px;
+        }
+
+        .header__search {
+            right: 142px;
+            top: 36px;
+        }
+
+    }
+}
+
+
+
+.header__cart,
+.header__search {
+    display: none;
+}
+
+.burger-icon .burger-black {
+    display: none;
+}
+
+.header-left__logo {
+
+    span {
+        color: $blackColor;
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        position: absolute;
+        z-index: 10;
+    }
+}
