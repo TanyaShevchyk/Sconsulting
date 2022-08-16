@@ -4,6 +4,7 @@
     width: 100%;
     background-color: #F7F7F7;
     position: fixed;
+    z-index: 12;
 
     &__right {
         display: flex;
@@ -93,8 +94,6 @@
 
     }
 }
-
-
 
 .header__cart,
 .header__search {
