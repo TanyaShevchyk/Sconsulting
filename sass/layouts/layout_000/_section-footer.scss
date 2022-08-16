@@ -3,14 +3,13 @@
 
     .container {
         max-width: 768px;
-        padding: 0 43px;
+        padding: 0 87px;
         margin: 0 auto;
     }
 
     .main-list {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
     }
     h3 {
         font-family: 'Montserrat';
@@ -93,6 +92,7 @@
             text-align: center;
             letter-spacing: 0.2px;
             color: #737373;
+            max-width: 224px;
         }
     }
 
