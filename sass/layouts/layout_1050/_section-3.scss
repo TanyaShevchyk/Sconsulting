@@ -1,8 +1,8 @@
 .about {
 
     .container {
-        max-width: 1440px;
-        padding: 0 190px;
+        max-width: 1050px;
+        padding: 0 15px;
         margin: 0 auto;
     }
 
@@ -12,11 +12,11 @@
 
     .about-main {
         display: flex;
-
+        flex-direction: row;
+        justify-content: flex-start;
 
         .video {
-            margin-right: 120px;
-   
+            margin-right: 40px;
         }
 
     }
