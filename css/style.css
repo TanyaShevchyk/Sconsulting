@@ -145,6 +145,7 @@ a {
   width: 100%;
   background-color: #F7F7F7;
   position: fixed;
+  z-index: 12;
 }
 .header__right {
   display: flex;
