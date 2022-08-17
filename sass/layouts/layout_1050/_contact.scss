@@ -126,12 +126,13 @@
         }
 
         .select-wrapper1::after {
-            content: url(/img/check-mark.svg);
+            content: url(../img/check-mark.svg);
             display: block;
             position: absolute;
             top: 50%;
             right: 20px;
             top: 11px;
+            pointer-events: none;
             
         }
 
@@ -141,12 +142,13 @@
         }
 
         .select-wrapper2::after {
-            content: url(/img/check-mark.svg);
+            content: url(../img/check-mark.svg);
             display: block;
             position: absolute;
             top: 50%;
             right: 20px;
             top: 11px;
+            pointer-events: none;
             
         }
 
@@ -193,7 +195,7 @@
             font-size: 14px;
             letter-spacing: 0.2px;
             text-align: center;
-
+            cursor: pointer;
         }
 
         

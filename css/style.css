@@ -590,23 +590,25 @@ a {
   position: relative;
 }
 .form form .select-wrapper1::after {
-  content: url(/img/check-mark.svg);
+  content: url(../img/check-mark.svg);
   display: block;
   position: absolute;
   top: 50%;
   right: 20px;
   top: 11px;
+  pointer-events: none;
 }
 .form form .select-wrapper2 {
   position: relative;
 }
 .form form .select-wrapper2::after {
-  content: url(/img/check-mark.svg);
+  content: url(../img/check-mark.svg);
   display: block;
   position: absolute;
   top: 50%;
   right: 20px;
   top: 11px;
+  pointer-events: none;
 }
 .form form select {
   padding-top: 11px;
@@ -646,6 +648,7 @@ a {
   font-size: 14px;
   letter-spacing: 0.2px;
   text-align: center;
+  cursor: pointer;
 }
 
 .features {
@@ -1338,23 +1341,25 @@ a {
     position: relative;
   }
   .form form .select-wrapper1::after {
-    content: url(/img/check-mark.svg);
+    content: url(../img/check-mark.svg);
     display: block;
     position: absolute;
     top: 50%;
     right: 20px;
     top: 11px;
+    pointer-events: none;
   }
   .form form .select-wrapper2 {
     position: relative;
   }
   .form form .select-wrapper2::after {
-    content: url(/img/check-mark.svg);
+    content: url(../img/check-mark.svg);
     display: block;
     position: absolute;
     top: 50%;
     right: 20px;
     top: 11px;
+    pointer-events: none;
   }
   .form form select {
     padding-top: 11px;
@@ -1394,6 +1399,7 @@ a {
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: center;
+    cursor: pointer;
   }
 }
 @media only screen and (min-width: 1050px) {
@@ -1665,23 +1671,25 @@ a {
     position: relative;
   }
   .form form .select-wrapper1::after {
-    content: url(/img/check-mark.svg);
+    content: url(../img/check-mark.svg);
     display: block;
     position: absolute;
     top: 50%;
     right: 20px;
     top: 11px;
+    pointer-events: none;
   }
   .form form .select-wrapper2 {
     position: relative;
   }
   .form form .select-wrapper2::after {
-    content: url(/img/check-mark.svg);
+    content: url(../img/check-mark.svg);
     display: block;
     position: absolute;
     top: 50%;
     right: 20px;
     top: 11px;
+    pointer-events: none;
   }
   .form form select {
     padding-top: 11px;
@@ -1721,6 +1729,7 @@ a {
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: center;
+    cursor: pointer;
   }
   .footer {
     padding-top: 80px;
